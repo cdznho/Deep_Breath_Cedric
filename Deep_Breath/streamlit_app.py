@@ -1,21 +1,11 @@
-from pathlib import Path
-import matplotlib.pyplot as plt
 import numpy as np
 import datetime
-import requests
-from sklearn.model_selection import train_test_split
 import pandas as pd
 from tensorflow.keras.models import load_model
 import pydub
-#import tensorflow_addons as tfa
-
-#Import for streamlit
 import streamlit as st
-
-#Import for Deep learning model
 import tensorflow as tf
 from tensorflow.keras.models import load_model
-from preprocessing import from_audiofile_to_spectrogram
 
 #import preprocessing pipeline
 from preprocessing import from_audiofile_to_spectrogram
